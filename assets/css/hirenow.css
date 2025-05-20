@@ -441,10 +441,97 @@ h4 {
 }
 
 .drug-test-box ul li a {
-    border-radius: 16px;
+    border-radius: 15px;
 }
 
 .form-step-btn {
     width: 60%;
     margin: 40px auto 0px;
+}
+
+.driver-license ul li {
+    flex: 0 1 20%;
+}
+
+.driver-license ul li a {
+    border-radius: 15px;
+    padding: 17px 25px;
+}
+
+.covid-19-preference ul li {
+    flex: auto;
+}
+
+.pay-per-hour p {
+    font-weight: 500;
+    font-size: var(--Font20px);
+    line-height: 1.5;
+    text-align: center;
+    color: #00000070;
+    margin-top: 20px;
+}
+
+.pay-per-hour p span {
+    font-weight: 500;
+    font-size: var(--Font26px);
+    line-height: 1.5;
+    text-align: center;
+    color: var(--Themepurple);
+}
+
+.double-range-slider {
+    margin: 2.5rem 0px;
+    padding: 0.6rem 0px;
+}
+
+.which-day ul {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.which-day ul li a {
+    border: 1px solid #E8E6EA;
+    text-decoration: none;
+    color: black;
+    display: block;
+    border-radius: 1rem;
+    font-weight: 500;
+    font-size: var(--Font24px);
+    line-height: 1.5;
+}
+
+.daysname ul li a {
+    padding: 2rem;
+}
+
+.daytime ul li a {
+    padding: 2rem;
+}
+
+.daytime {
+    margin: 1rem 0px 2.5rem;
+}
+
+.daytime ul li {
+    flex: 1;
+    text-align: center;
+}
+
+.monthlytime select {
+    background-color: #D9D9D9;
+    border-radius: 8px;
+    padding: 1rem 21px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+    background-position-y: 50%;
+    border: 0;
+    border-bottom: 2px solid #0369D7;
+    font-weight: 500;
+    font-size: var(--Font16px);
+    line-height: 1.5;
+    width: 300px;
 }

@@ -1,0 +1,1098 @@
+@media screen and (max-width: 767px) {
+
+    :root {
+        --Commonpadding: 40px 0px;
+    }
+
+    .container {
+        max-width: 94%;
+    }
+
+    header.desktop-menu {
+        display: none;
+    }
+
+    .home-banner-form-wrapper {
+        width: 100%;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .home-banner-form-wrapper .nav-item button {
+        padding: 10px 15px;
+    }
+
+    .form-row-banner-tab button {
+        padding: 11px 10px;
+        width: 50%;
+        margin-top: 12px;
+        margin-inline: auto;
+        display: block;
+    }
+
+    .home-banner-section h1 {
+        line-height: 1.8;
+        text-align: center;
+    }
+
+    .home-banner-section h1 span {
+        padding: 4px 10px;
+    }
+
+    .what-we-do-image-column {
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 0;
+        padding: 15% 0px 0px 0px
+    }
+
+    .what-we-do-cards-list ul li:nth-child(2) {
+        left: 0;
+    }
+
+    .what-we-do-image-column img {
+        width: 60%;
+        left: 21%;
+        position: relative;
+        top: -92px;
+        transform: rotate(90deg);
+        z-index: -8;
+    }
+
+    .what-we-do-card-icon img {
+        height: 40px;
+        width: 40px !important;
+        object-fit: contain;
+        top: unset !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: unset !important;
+        z-index: 1 !important;
+        left: 0 !important;
+    }
+
+    .what-we-do-cards-list ul li .what-we-do-card {
+        padding: 15px 4%;
+    }
+
+    .what-we-do-cards-list ul li .what-we-do-card::before {
+        right: -4%;
+        border-radius: 10px;
+    }
+
+    .what-we-do-card-icon-box .what-we-do-card-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .become-care-giver-section-wrapper .circle-card-wrapper ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .service-offered-section .service-offered-cards-wrapper ul li {
+        width: 100%;
+    }
+
+    .right_at_side_image_col {
+        top: 3px;
+    }
+
+    .become-care-giver-section-wrapper .circle-card-wrapper ul li .circle-card {
+        width: 250px;
+        height: 250px;
+        margin: auto;
+    }
+
+    .become-care-giver-section-wrapper .circle-card-wrapper ul li:nth-child(2)::after {
+        top: 27%;
+        left: 50%;
+        height: 126px;
+        width: 141px;
+    }
+
+    .become-care-giver-section-wrapper .circle-card-wrapper ul li:nth-child(2)::before {
+        top: 2%;
+        left: 37px;
+        height: 100%;
+        width: 80%;
+    }
+
+    .become-care-giver-section-wrapper .circle-card-wrapper ul li:nth-child(1)::after {
+        width: 128px;
+    }
+
+    .become-care-giver-section-wrapper .circle-card-wrapper ul li:nth-child(1)::before {
+        top: 11%;
+        left: 31px;
+        height: 94%;
+        width: 81%;
+    }
+
+    .become-care-giver-section-wrapper .circle-card-wrapper ul li:nth-child(3)::after {
+        width: 134px;
+    }
+
+    .become-care-giver-section-wrapper .circle-card-wrapper ul li:nth-child(3)::before {
+        top: 6%;
+        left: 35px;
+        height: 95%;
+        width: 70%;
+    }
+
+    .right_at_store_buttons_group {
+        padding-bottom: 0px;
+    }
+
+    .right_at_finger_tips {
+        padding: 40px 0px 0px 0px;
+    }
+
+    footer .col-lg-3.last-col-footer {
+        max-width: 50%;
+    }
+
+    .why-choose-us-cards-wrapper ul li {
+        width: 100%;
+    }
+
+    .what-we-do-section-wrapper .what-we-do-image-column .what-we-do-image-one-col .image-col-what-we-do {
+        margin: auto;
+    }
+
+    .meet-caregivers-section .caregivers-cards ul {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .meet-caregivers-section .caregivers-cards ul li {
+        width: 100%;
+    }
+
+    .meet-caregivers-section .caregivers-cards ul li .caregiver-card img {
+        width: 100%;
+        height: 172px;
+        margin-bottom: 13px;
+    }
+
+    .meet-caregivers-section .caregivers-cards ul li .caregiver-card p {
+        margin-top: 5px;
+    }
+
+    .meet-caregivers-section .caregivers-cards ul li .caregiver-card a {
+        margin-top: 10px;
+    }
+
+    .our-plans-cards-wrapper ul li {
+        width: 100%;
+    }
+
+    .our-plans-cards-wrapper ul {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .our-plans-cards-wrapper ul li .plan-card-single ul {
+        gap: 0px;
+    }
+
+    .faq-inner-col .accordion-header button {
+        padding: 12px 20% 12px 0px;
+    }
+
+    .faq-inner-col .accordion-button::after {
+        font-size: 26px;
+        top: 20%;
+        right: 0px;
+    }
+
+    .download-app-section h2 {
+        line-height: 1.4;
+    }
+
+    .download-app-section h6 {
+        margin-top: 10px;
+        line-height: 1.5;
+    }
+
+    .download-app-section .download-app-right-col img {
+        transform: scale(1);
+        position: relative;
+        top: 32px;
+    }
+
+    .download-app-section ul {
+        margin-top: 15px;
+    }
+
+    .download-app-section ul li img {
+        width: 110px;
+    }
+
+    .download-app-section {
+        padding-bottom: 30px;
+        margin: 36px auto 36px auto;
+        text-align: center;
+    }
+
+    .join-us-section-second .subscribe-form {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .join-us-section-second .subscribe-form input[type="email"] {
+        width: 100%;
+    }
+
+    .join-us-section-second .subscribe-form input[type="submit"] {
+        margin: auto;
+    }
+
+    .right_at_finger_tips h2 {
+        line-height: 1.5;
+    }
+
+    .right_at_finger_tips p {
+        line-height: 1.5;
+        margin-top: 10px;
+    }
+
+    .right_at_finger_tips ul li .text-pointer-right_at_finger h6 {
+        line-height: 1.5;
+    }
+
+    .image-pointer-right_at_finger {
+        width: 15%;
+    }
+
+    .text-pointer-right_at_finger {
+        width: 86%;
+    }
+
+    .right_at_finger_tips ul li {
+        gap: 10px;
+        margin-top: 18px;
+        align-items: flex-start;
+    }
+
+    .right_at_finger_tips ul li .image-pointer-right_at_finger img {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+    }
+
+    .service-offered-section p {
+        margin-top: 9px;
+        line-height: 1.5;
+    }
+
+    .service-offered-section .service-offered-cards-wrapper ul li .service-offered-card .service-offered-card-text h6 {
+        margin-bottom: 5px;
+    }
+
+    .service-offered-section .service-offered-cards-wrapper ul {
+        gap: 19px;
+    }
+
+    .why-choose-us-cards-wrapper ul li .why-choose-us-card {
+        padding: 18px 10px;
+    }
+
+    .join-us-section {
+        padding: 32px 0px;
+        max-width: 92%;
+    }
+
+    .join-us-section .section-bg-image img {
+        object-position: 65%;
+    }
+
+    .join-us-section a {
+        margin-top: 15px;
+        padding: 12px 20px;
+    }
+
+    .join-us-section-second p {
+        margin: 10px 0px;
+        line-height: 1.5;
+    }
+
+    .join-us-section-second {
+        text-align: center;
+    }
+
+    .meet-caregivers-section p {
+        margin-top: 10px;
+        line-height: 1.5;
+    }
+
+    .meet-caregivers-section .caregivers-cards ul li .caregiver-card a {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .our-plans-section h2 {
+        line-height: 1.5;
+    }
+
+    .our-plans-section p {
+        margin-top: 8px;
+        line-height: 1.5;
+    }
+
+    .card-wrap-plans .plan-card-top-box .plan-card-top-left-col .plan-card-badge p {
+        font-size: 10px;
+    }
+
+    .card-wrap-plans .plan-card-top-box .plan-card-top-left-col .plan-card-badge img {
+        width: 10px;
+        height: 10px;
+    }
+
+    .card-wrap-plans .plan-card-top-box .plan-card-top-left-col .plan-card-badge {
+        justify-content: center;
+        padding: 3px 5px;
+    }
+
+    .card-wrap-plans .plan-card-top-box .plan-card-month-col h3 {
+        font-size: 58px;
+    }
+
+    .our-plans-cards-wrapper ul li .plan-card-single ul li {
+        gap: 12px;
+        margin-top: 10px;
+    }
+
+    .card-wrap-plans .plan-card-top-box h4 {
+        margin: 8px 0px;
+    }
+
+    .faq-section-wrapper .faq-inner-col {
+        padding: 20px;
+    }
+
+    .faq-section-wrapper h2 {
+        line-height: 1.5;
+    }
+
+    .faq-section-wrapper .faq-inner-col h6 {
+        margin: 12px 0px;
+        line-height: 1.7;
+    }
+
+    .faq-inner-col .accordion-item p {
+        font-size: 12px;
+    }
+
+    .become-care-giver-section-wrapper .section-bg-image img {
+        object-position: 7%;
+        border-radius: 0;
+    }
+
+    .meet-caregivers-section {
+        margin-top: 40px;
+    }
+
+    footer {
+        margin-top: 40px;
+    }
+
+    footer .col-lg-3.first-col-footer {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    footer .row {
+        gap: 30px 0px;
+    }
+
+    footer .footer-links-col ul li {
+        margin-top: 15px;
+    }
+
+    footer .footer-links-col h4 {
+        font-size: 14px;
+    }
+
+    footer .download-col-footer h4 {
+        font-size: 14px;
+    }
+
+    footer .footer-links-col ul li img {
+        width: 20px;
+    }
+
+    footer .download-col-footer ul li {
+        margin-top: 8px;
+    }
+
+    footer .download-col-footer ul li img {
+        width: 120px;
+        height: 50px;
+        object-fit: contain;
+    }
+
+    footer p.copyright-text {
+        padding-top: 10px;
+    }
+
+    .caregiver-banner-section {
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    .caregiver-banner-left-col ul li {
+        margin-bottom: 35px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .caregiver-banner-left-col ul li .caregiver-left-col-point {
+        text-align: left;
+    }
+
+    .caregiver-banner-left-col ul li .caregiver-left-col-point-image .image-inner-left-col-caregiver {
+        height: 40px;
+        width: 40px;
+    }
+
+    .caregiver-banner-left-col ul li h6 {
+        margin-bottom: 5px;
+    }
+
+    .caregiver-banner-left-col ul li .caregiver-left-col-point-image img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .caregiver-banner-center-col img {
+        width: 200px;
+        height: 290px;
+    }
+
+    .caregiver-banner-center-image-col::before,
+    .caregiver-banner-center-image-col::after {
+        width: 200px;
+        height: 200px;
+    }
+
+    .caregiver-banner-center-col {
+        margin: 25px 0px;
+    }
+
+    .caregiver-banner-center-col a {
+        padding: 10px 20px
+    }
+
+    .caregiver-banner-right-col ul li .caregiver-right-col-point-image .image-inner-right-col-caregiver {
+        height: 40px;
+        width: 40px;
+    }
+
+    .caregiver-banner-right-col ul li .caregiver-right-col-point-image img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .contact-banner-section .contact-banner-left-col {
+        padding: 0px 0px 10%;
+        margin-bottom: 55px;
+    }
+
+    .contact-page-banner-image::before {
+        height: 440px;
+        width: 500px;
+    }
+
+    .mission_and_purpose-section .our-mission-text-box {
+        padding: 40px 21px;
+    }
+
+    .parllalx-section .parllalx-inner-section .parllax-section-icons-group ul li {
+        width: 100%;
+    }
+
+    .parllalx-section .parllalx-inner-section .parllax-section-icons-group ul {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .safety_content {
+        padding: 30px 0px 0px;
+        text-align: center;
+    }
+
+    .saftey_trust_section {
+        padding: 3rem 0px;
+        height: auto;
+        margin: 40px 0px 30px;
+    }
+
+    .contact-banner-section .contact-banner-left-col {
+        text-align: center;
+    }
+
+    .contact-banner-section .contact-banner-left-col h1 {
+        line-height: 2;
+    }
+
+    .get-in-touch-section {
+        margin-bottom: 40px;
+    }
+
+    .choose-card-box .card img {
+        width: 100%;
+    }
+
+    .hire-now-banner .section-bg-image img {
+        object-fit: cover;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width: 991px) {
+
+    :root {
+        --Commonpadding: 40px 0px;
+    }
+
+    header.desktop-menu {
+        display: none;
+    }
+
+    .home-banner-form-wrapper {
+        width: 60%;
+        margin-top: 20px;
+        padding: 10px;
+        margin-inline: auto;
+    }
+
+    .home-banner-form-wrapper .nav-item button {
+        padding: 10px 15px;
+    }
+
+    .form-row-banner-tab button {
+        padding: 11px 10px;
+        width: 50%;
+        margin-top: 12px;
+        margin-inline: auto;
+        display: block;
+    }
+
+    .home-banner-section h1 {
+        line-height: 1.8;
+        text-align: center;
+    }
+
+    .home-banner-section h1 span {
+        padding: 4px 10px;
+    }
+
+    .what-we-do-image-column {
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 0;
+        padding: 5% 0px 0px 0px
+    }
+
+    .what-we-do-cards-list ul {
+        padding: 0 20%;
+    }
+
+    .become-care-giver-section-wrapper .circle-card-wrapper {
+        margin-top: 40px;
+    }
+
+    .become-care-giver-section-wrapper .circle-card-wrapper ul li .circle-card img {
+        width: 30px;
+    }
+
+    .what-we-do-cards-list ul li:nth-child(2) {
+        left: 0;
+    }
+
+    .what-we-do-image-column img {
+        width: 40%;
+        left: 30%;
+        position: relative;
+        top: -92px;
+        transform: rotate(90deg);
+        z-index: -8;
+    }
+
+    .what-we-do-card-icon img {
+        height: 40px;
+        width: 40px !important;
+        object-fit: contain;
+        top: unset !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: unset !important;
+        z-index: 1 !important;
+        left: 0 !important;
+    }
+
+    .what-we-do-cards-list ul li .what-we-do-card {
+        padding: 15px 4%;
+    }
+
+    .what-we-do-cards-list ul li .what-we-do-card::before {
+        right: -4%;
+        border-radius: 10px;
+    }
+
+    .what-we-do-card-icon-box .what-we-do-card-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .service-offered-section .service-offered-cards-wrapper ul li {
+        width: 48.5%;
+    }
+
+    .service-offered-section .service-offered-cards-wrapper ul li .service-offered-card {
+        height: 100%;
+    }
+
+    .service-offered-section .service-offered-cards-wrapper ul li .service-offered-card .service-offered-card-text h6 {
+        margin-bottom: 0;
+    }
+
+    .right_at_side_image_col {
+        top: 3px;
+    }
+
+    .become-care-giver-section-wrapper .circle-card-wrapper ul li .circle-card {
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        gap: 12px;
+    }
+
+    .right_at_finger_tips ul li {
+        margin-top: 30px;
+    }
+
+    .service-offered-section .service-offered-cards-wrapper ul {
+        gap: 15px;
+    }
+
+    .right_at_finger_tips {
+        padding: 45px 0px 0px 0px;
+    }
+
+    .become-care-giver-section-wrapper .circle-card-wrapper ul li:nth-child(2)::after {
+        top: 27%;
+        left: 50%;
+        height: 148px;
+        width: 116px;
+    }
+
+    .become-care-giver-section-wrapper .circle-card-wrapper ul li:nth-child(2)::before {
+        top: 11%;
+        left: 37px;
+        height: 100%;
+        width: 80%;
+    }
+
+    .become-care-giver-section-wrapper .circle-card-wrapper ul li:nth-child(1)::after {
+        width: 108px;
+    }
+
+    .become-care-giver-section-wrapper .circle-card-wrapper ul li:nth-child(1)::before {
+        top: 11%;
+        left: 31px;
+        height: 94%;
+        width: 81%;
+    }
+
+    .become-care-giver-section-wrapper .circle-card-wrapper ul li:nth-child(3)::after {
+        width: 108px;
+    }
+
+    .become-care-giver-section-wrapper .circle-card-wrapper ul li:nth-child(3)::before {
+        top: 11%;
+        left: 24px;
+        height: 95%;
+        width: 83%;
+    }
+
+    .right_at_store_buttons_group {
+        padding-bottom: 0px;
+    }
+
+    footer .col-lg-3.last-col-footer {
+        max-width: 50%;
+    }
+
+    .why-choose-us-cards-wrapper ul li {
+        width: 49.2%;
+    }
+
+    .join-us-section h2 {
+        padding-right: 20%;
+    }
+
+    .join-us-section a {
+        margin-top: 20px;
+        padding: 12px 20px;
+        font-size: var(--Font20px);
+    }
+
+    .what-we-do-section-wrapper .what-we-do-image-column .what-we-do-image-one-col .image-col-what-we-do {
+        margin: auto;
+    }
+
+    .meet-caregivers-section .caregivers-cards ul {
+        gap: 10px;
+    }
+
+    .meet-caregivers-section .caregivers-cards ul li {
+        width: 33%;
+    }
+
+    .meet-caregivers-section .caregivers-cards ul li .caregiver-card img {
+        width: 100%;
+        height: 172px;
+        margin-bottom: 13px;
+    }
+
+    .meet-caregivers-section .caregivers-cards ul li .caregiver-card p {
+        margin-top: 10px;
+        line-height: 1.5;
+    }
+
+    .meet-caregivers-section .caregivers-cards ul li .caregiver-card a {
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .our-plans-cards-wrapper ul li {
+        width: 50%;
+    }
+
+    .our-plans-cards-wrapper ul {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .download-app-right-col {
+        display: flex;
+        justify-content: center;
+    }
+
+    .our-plans-cards-wrapper ul li .plan-card-single ul {
+        gap: 0px;
+    }
+
+    .faq-inner-col .accordion-header button {
+        padding: 12px 0px;
+    }
+
+    .download-app-section .download-app-right-col img {
+        transform: scale(1);
+        position: relative;
+        top: 32px;
+    }
+
+    .download-app-section {
+        padding-bottom: 30px;
+        margin: 36px auto 36px auto;
+        text-align: center;
+    }
+
+    .download-app-section h6 {
+        line-height: 1.6;
+    }
+
+    .join-us-section-second {
+        text-align: center;
+    }
+
+    .join-us-section-second .subscribe-form {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .join-us-section-second .subscribe-form input[type="email"] {
+        width: 100%;
+    }
+
+    .join-us-section-second .subscribe-form input[type="submit"] {
+        margin: auto;
+    }
+
+    footer .col-lg-3.first-col-footer {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    footer .row {
+        gap: 30px 0px;
+    }
+
+    footer .footer-links-col ul li {
+        margin-top: 15px;
+    }
+
+    footer .footer-links-col h4 {
+        font-size: 14px;
+    }
+
+    footer .download-col-footer h4 {
+        font-size: 14px;
+    }
+
+    footer .footer-links-col ul li img {
+        width: 20px;
+    }
+
+    footer .download-col-footer ul li {
+        margin-top: 8px;
+    }
+
+    footer .download-col-footer ul li img {
+        width: 120px;
+        height: 50px;
+        object-fit: contain;
+    }
+
+    footer p.copyright-text {
+        padding-top: 10px;
+    }
+
+}
+
+@media screen and (max-width:1500px) {
+    header.desktop-menu .header-logo img {
+        width: 135px;
+    }
+
+    .form-alert-msg img {
+        width: 35px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #header {
+        display: none;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width: 1160px) {
+
+    :root {
+        --Commonpadding: 50px 0px;
+    }
+
+    header.desktop-menu nav ul {
+        gap: 20px;
+    }
+
+    header.desktop-menu .header-cta-btn {
+        margin-left: 20px;
+    }
+
+    header.desktop-menu .header-cta-btn a {
+        padding: 10px 25px;
+    }
+
+    .what-we-do-image-column img {
+        top: -3px;
+    }
+
+    .what-we-do-card-icon img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .what-we-do-cards-list ul li .what-we-do-card {
+        padding: 15px 6%;
+    }
+
+    .what-we-do-cards-list ul {
+        gap: 30px;
+        margin-top: -70px;
+    }
+
+    .what-we-do-card-text p {
+        margin-top: 8px;
+    }
+
+    .what-we-do-card-icon-box .what-we-do-card-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .service-offered-section .service-offered-cards-wrapper ul {
+        gap: 20px;
+    }
+
+    .meet-caregivers-section .caregivers-cards ul li .caregiver-card img {
+        height: 180px;
+        margin-bottom: 20px;
+    }
+
+    .meet-caregivers-section .caregivers-cards ul li .caregiver-card a {
+        margin-top: 20px;
+        padding: 10px 16px;
+    }
+
+    .our-plans-section p {
+        margin-top: 12px;
+    }
+
+    .meet-caregivers-section .caregivers-cards ul li .caregiver-card p {
+        line-height: 1.4;
+        margin-top: 10px;
+    }
+
+    .faq-section-wrapper .faq-inner-col {
+        padding: 20px;
+    }
+
+    .faq-section-wrapper .col-lg-6 {
+        width: 58%;
+    }
+
+    .download-app-section {
+        margin: 90px auto 70px auto;
+    }
+
+    .download-app-section .download-app-right-col img {
+        top: 22px;
+    }
+
+    .download-app-section h6 {
+        line-height: 1.7;
+    }
+
+    .download-app-section ul {
+        margin-top: 16px;
+    }
+
+    .download-app-section ul li img {
+        width: 150px;
+    }
+
+    .join-us-section-second p {
+        line-height: 1.7;
+    }
+
+    footer .download-col-footer ul li img {
+        height: 50px;
+    }
+
+    footer p.copyright-text {
+        padding-top: 40px;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+
+    .our-plans-cards-wrapper ul li {
+        width: 31%;
+    }
+
+    .our-plans-cards-wrapper {
+        margin-top: 45px;
+    }
+
+    .saftey_trust_section {
+        margin: 80px 0px 120px;
+    }
+
+    .saftey_trust_section {
+        height: 360px;
+    }
+
+    .safety_content {
+        padding: 30px 0px;
+    }
+
+    .saftey_trust_section {
+        padding: 4rem 0px;
+    }
+
+}
+
+@media screen and (min-width: 1400px) {
+    .saftey_trust_section {
+        margin: 80px 0px 200px;
+    }
+
+    .saftey_trust_section {
+        height: 425px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .saftey_trust_section {
+        height: 450px;
+    }
+
+    .safety_content {
+        padding: 80px 0px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .saftey_trust_section {
+        margin: 80px 0px 200px;
+    }
+
+    .saftey_trust_section {
+        height: 450px;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .login-special-condition ul li a img {
+        height: 55px;
+    }
+    .login-special-condition ul li a {
+        padding: 20px 35px;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .home-banner-section {
+        height: 720px;
+    }
+
+    .banner-findcare-tab .form-row-banner-tab input[type="text"] {
+        height: 58px;
+    }
+
+    .saftey_trust_section {
+        height: 540px;
+        margin: 80px 0px 260px;
+    }
+
+    .safety_content {
+        padding: 112px 0px;
+    }
+
+    .homestep-box {
+        padding: 33px 0px 56px;
+    }
+
+    .hiring-list {
+        margin: 54px 0px 107px;
+    }
+
+    .language-card-box ul li a {
+        padding: 35px 25px;
+    }
+
+    .gender-card-box ul li img {
+        height: 58px;
+    }
+
+    .step-next-btn .btn {
+        padding: 20px 12px;
+    }
+}

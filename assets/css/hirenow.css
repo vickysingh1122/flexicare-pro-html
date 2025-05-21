@@ -502,11 +502,11 @@ h4 {
 }
 
 .daysname ul li a {
-    padding: 2rem;
+    padding: 1rem 1rem;
 }
 
 .daytime ul li a {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .daytime {
@@ -533,5 +533,73 @@ h4 {
     font-weight: 500;
     font-size: var(--Font16px);
     line-height: 1.5;
-    width: 300px;
+    width: 250px;
+}
+
+.which-day ul li {
+    flex: 1;
+    text-align: center;
+}
+
+.daysname ul {
+    width: 90%;
+}
+
+.which-day-box {
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.datetime {
+    border: 1px solid #E8E6EA;
+    border-radius: 16px;
+    padding: 1.2rem 1.2rem;
+    box-shadow: none !important;
+    outline: 0;
+    font-weight: 500;
+    font-size: var(--Font20px);
+    line-height: 1.5;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.datetime img {
+    width: 35px;
+}
+
+.datetime-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.datetime-box .hours {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.datetime-box .hours img {
+    width: auto;
+}
+
+.date-duration-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 3rem 0px;
+}
+
+.starttime {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.am-pm button img {
+    width: auto;
 }

@@ -1065,6 +1065,15 @@
     .daytime ul li a {
         padding: 2rem;
     }
+
+    .login-requiremnt-box ul li a {
+        padding: 17px 30px;
+    }
+
+    .plans-card .card-text ul li img {
+        width: 24px;
+    }
+
 }
 
 @media screen and (min-width: 1900px) {

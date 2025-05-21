@@ -603,3 +603,229 @@ h4 {
 .am-pm button img {
     width: auto;
 }
+
+.login-requiremnt-box ul li {
+    flex: unset;
+}
+
+.login-requiremnt-box ul li a img {
+    width: 60px;
+}
+
+.login-requiremnt-box ul li a {
+    border-radius: 15px;
+    padding: 12px 30px;
+}
+
+.tab-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 1rem;
+    border: 1px solid #402566;
+    border-radius: 50px;
+}
+
+.tab-text span {
+    font-weight: 400;
+    font-size: var(--Font14px);
+    line-height: 1.5;
+    color: #402566;
+}
+
+.tab-btn {
+    cursor: pointer;
+}
+
+.skills-and-qualifications .form-box-input {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.skills-and-qualifications .form-box-input .form-control {
+    flex: 0 0 50%;
+    margin-right: 4px;
+    padding: 1.2rem 1.5rem;
+}
+
+.priority-box .form-box-input .form-control {
+    padding: 1.2rem 1.5rem;
+}
+
+.priority-box {
+    margin: 20px 0px;
+    width: 50%;
+}
+
+.rating-icon .fa-star {
+    font-size: 50px;
+    color: #D9D9D9;
+}
+
+.rating-icon .fa-star:nth-child(1) {
+    color: #F1AE1D;
+}
+
+.skip-btn a {
+    font-weight: 500;
+    font-size: var(--Font20px);
+    line-height: 1.5;
+    text-decoration: underline;
+}
+
+.choose-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.choose-heading h3 {
+    font-weight: 600;
+    font-size: var(--Font40px);
+    line-height: 1.5;
+}
+
+.plans-list .card {
+    border: 0;
+    background: transparent;
+}
+
+.plans-list .card .card-header {
+    border: 0;
+}
+
+.plans-list .card .card-footer,
+.plans-list .card .card-body {
+    border: 0;
+    padding: 0;
+}
+
+.plans-card {
+    background: linear-gradient(139.27deg, #402566 1.94%, #804ACC 100.95%);
+    border-radius: 24px;
+    color: white;
+    padding: 1.6rem;
+}
+
+.plans-list .card .card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+    padding: 1.5rem 1rem;
+}
+
+.plans-time h3 {
+    font-size: 65px;
+    font-weight: 600;
+}
+
+.plans-time {
+    text-align: center;
+}
+
+.plans-time span {
+    font-size: var(--Font16px);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.billing-option {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 1rem;
+    background-color: #D9D9D933;
+    box-shadow: 0px 4px 4px 0px #0000001A;
+    border-radius: 40px;
+    color: #000000;
+}
+
+.dollor-price {
+    font-size: var(--Font26px);
+    font-weight: 700;
+    color: #000000;
+}
+
+.sub-dollor-price {
+    font-weight: 400;
+    font-size: var(--Font16px);
+    line-height: 1.5;
+    color: #000000;
+}
+
+.plans-price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.billing-option span {
+    font-weight: 500;
+    font-size: var(--Font16px);
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.plans-card .card-title {
+    font-weight: 600;
+    font-size: var(--Font24px);
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.plans-card .card-text {
+    font-weight: 400;
+    font-size: var(--Font16px);
+    line-height: 1.5;
+}
+
+.plans-card .card-text ul {
+    padding: 1rem 0px 2rem;
+}
+
+.plans-card .card-text ul li {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    line-height: 1.7;
+}
+
+.plans-card .card-text ul li img {
+    width: 20px;
+}
+
+.buy-now-btn .step-next-btn .btn {
+    border: 0;
+    background: white;
+    color: black;
+    font-weight: 500;
+    font-size: var(--Font24px);
+    text-transform: uppercase;
+}
+
+.buy-now-btn .step-next-btn .btn:hover {
+    color: white;
+    background: linear-gradient(90deg, #402566 0%, #804ACC 100%);
+}
+
+.plans-list {
+    width: 85%;
+    margin: 1rem auto;
+}
+
+.choose-plan {
+    box-shadow: 0px 0px 20px 10px #0000001A;
+    border-radius: 40px;
+    padding: 2rem 3rem;
+    position: relative;
+    background: white;
+}
+
+.choose-access {
+    margin-top: 30px;
+}

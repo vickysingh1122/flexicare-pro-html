@@ -1558,7 +1558,7 @@ header.desktop-menu::after {
     font-size: var(--Font20px);
 }
 
-.join-us-section-second .subscribe-form input[type="submit"] {
+.join-us-section-second .subscribe-form input[type="submit"],.join-us-section-second .subscribe-form button[type="submit"] {
     padding: 15px 40px;
     background-color: var(--Themepurple);
     border-radius: 1000px;
@@ -2126,7 +2126,8 @@ footer p.copyright-text {
     margin: 30px auto 0 auto;
 }
 
-.get-in-touch-input-col.submit-col input[type="submit"] {
+.get-in-touch-input-col.submit-col input[type="submit"],
+.get-in-touch-input-col.submit-col button[type="submit"] {
     padding: 15px 40px;
     background-color: var(--Themepurple);
     border-radius: 1000px;

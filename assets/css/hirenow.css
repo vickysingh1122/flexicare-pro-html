@@ -416,7 +416,7 @@ h4 {
 
 .login-box-btns ul {
     flex-direction: row;
-    gap: 16px;
+    gap: 10px;
     flex-wrap: wrap;
 }
 
@@ -1000,4 +1000,49 @@ h4 {
     background-color: #4727d2;
 }
 
+.caregiverscreentwo .datetime {
+    padding: 15px 20px;
+}
+
+.caregiverscreentwo .custom-file-upload {
+    padding: 1rem 2rem;
+}
+
+.facilityform .login-form .form-box-input label:nth-child(1) {
+    font-weight: 700;
+    font-size: var(--Font18px);
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.get-in-touch-section .get-in-touch-input-col select {
+    height: 60px;
+}
+
+.caregiverloginform .datetime img {
+    width: 28px;
+}
+.caregiverloginform .datetime {
+    padding: 1rem 1.2rem; 
+}
+.preferred-working ul li {
+    flex: unset;
+}
+.preferred-working ul li a{
+    padding: 17px 34px;
+}
+.shift-availablity ul  {
+    justify-content: center;
+    align-items: center;
+}
+.shift-availablity ul li {
+    flex: unset;
+    flex-basis: 24%;
+}
+.shift-availablity ul li a {
+    padding: 17px 3px;
+}
+.caregiver-special-condition ul li {
+    flex: unset;
+}
 /* facility css ================================ */

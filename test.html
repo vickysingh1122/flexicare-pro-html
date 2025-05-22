@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FlexiCare Form</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #f8fafa, #f6f1fb);
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section-title {
+      font-weight: 600;
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    .button-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .option-button {
+      padding: 10px 20px;
+      border: 2px solid #d4d4d4;
+      border-radius: 9999px;
+      background-color: white;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      font-size: 14px;
+    }
+
+    .option-button:hover,
+    .option-button.selected {
+      border-color: #7f56d9;
+      background-color: #ede9fe;
+    }
+
+    .split-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .split-col {
+      flex: 1;
+    }
+
+    .icon-button {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .icon-button img {
+      width: 20px;
+      height: 20px;
+    }
+
+    .continue-button {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      background: linear-gradient(to right, #7f56d9, #6a2cd8);
+      border: none;
+      border-radius: 25px;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 30px;
+    }
+    .section-title {
+  font-weight: 600;
+  font-size: 16px;
+  margin: 30px 0 15px;
+  text-align: left;
+}
+
+.options-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.option-button {
+  width: 230px;
+  height: 59px;
+  border: 2px solid #402566;
+  border-radius: 40px;
+  background: transparent;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.option-button.selected {
+  background: linear-gradient(to right, #764ba2, #667eea);
+  color: #fff;
+}
+
+
+    @media (max-width: 600px) {
+      .split-row {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Just few steps away from perfect match!</h1>
+
+    <!-- Preferred Working Setting -->
+    <div class="section">
+      <div class="section-title">What is your preferred working setting?</div>
+      <div class="button-group">
+        <button class="option-button">Private Homes</button>
+        <button class="option-button">Nursing Homes</button>
+        <button class="option-button selected">Assisted Living</button>
+        <button class="option-button">All of the above</button>
+      </div>
+    </div>
+
+    <!-- Shift Availability -->
+    <div class="section">
+      <div class="section-title">What is your shift availability?</div>
+      <div class="button-group">
+        <button class="option-button">Day</button>
+        <button class="option-button">Live In</button>
+        <button class="option-button">Overnight</button>
+        <button class="option-button">Holidays</button>
+        <button class="option-button">Evening</button>
+        <button class="option-button">Flexible</button>
+        <button class="option-button">Weekends</button>
+      </div>
+    </div>
+
+    <!-- Two-Column Preferences -->
+    <div class="split-row">
+      <div class="split-col">
+        <div class="section-title">Willing to Accept Immediate-Need Assignments?</div>
+        <div class="button-group">
+          <button class="option-button icon-button">
+            📦 Yes
+          </button>
+          <button class="option-button icon-button">
+            ❌ No
+          </button>
+        </div>
+      </div>
+
+      <div class="split-col">
+        <div class="section-title">Are you okay with smoking household?</div>
+        <div class="button-group">
+          <button class="option-button icon-button">
+            🚭 Yes
+          </button>
+          <button class="option-button icon-button">
+            🚬 No
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Continue Button -->
+    <button class="continue-button">Continue</button>
+  </div>
+
+</body>
+</html>

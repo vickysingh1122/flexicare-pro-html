@@ -158,6 +158,7 @@ table {
     --Font22px: clamp(16px, 1.146vw, 24px);
     --Font24px: clamp(16px, 1.25vw, 28px);
     --Font26px: clamp(14px, 1.4vw, 53px);
+    --Font28px: clamp(18px, 1.46vw, 56px);
     --Font38px: clamp(14px, 1.98vw, 76px);
     --Font40px: clamp(20px, 2.083vw, 42px);
     --Font48px: clamp(20px, 2.5vw, 52px);

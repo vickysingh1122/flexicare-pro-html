@@ -1,18 +1,18 @@
-$('.owl-carousel').owlCarousel({
-    loop: true,
-    margin: 10,
-    autoplay: true,
-    nav: false,
-    dots: false,
-    responsive: {
-        0: {
-            items: 1.5
-        },
+$(".owl-carousel").owlCarousel({
+  loop: true,
+  margin: 10,
+  autoplay: true,
+  nav: false,
+  dots: false,
+  responsive: {
+    0: {
+      items: 1.5,
+    },
 
-        1000: {
-            items: 3.5
-        }
-    }
+    1000: {
+      items: 3.5,
+    },
+  },
 });
 
 const menu = document.querySelector(".menu");
@@ -33,8 +33,8 @@ function showSubMenu(children) {
   subMenu = children.querySelector(".submenu");
   subMenu.classList.add("is-active");
   subMenu.style.animation = "slideLeft 0.35s ease forwards";
-  const menuTitle = children.querySelector("i").parentNode.childNodes[0]
-    .textContent;
+  const menuTitle =
+    children.querySelector("i").parentNode.childNodes[0].textContent;
   menu.querySelector(".menu__title").textContent = menuTitle;
   menu.querySelector(".menu__header").classList.add("is-active");
 }
@@ -109,3 +109,17 @@ menuArrow.addEventListener("click", hideSubMenu);
 menuTitle.addEventListener("click", hideSubMenu);
 menuInner.addEventListener("click", toggleSubMenu);
 
+// file upload js =============
+
+document
+  .querySelectorAll('.custom-file-upload input[type="file"]')
+  .forEach((input) => {
+    input.addEventListener("change", (e) => {
+      const fileName =
+        e.target.files.length > 0 ? e.target.files[0].name : "No file selected";
+      const fileNameSpan = e.target
+        .closest(".custom-file-upload")
+        .querySelector(".file-name");
+      fileNameSpan.textContent = fileName;
+    });
+  });

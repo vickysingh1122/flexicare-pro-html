@@ -1074,6 +1074,14 @@
         width: 24px;
     }
 
+    .custom-file-upload {
+        padding: 15px 20px;
+    }
+
+    .custom-file-upload label {
+        padding: 10px 16px;
+    }
+
 }
 
 @media screen and (min-width: 1900px) {
@@ -1113,4 +1121,6 @@
     .step-next-btn .btn {
         padding: 20px 12px;
     }
+
+
 }

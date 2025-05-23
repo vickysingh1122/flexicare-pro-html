@@ -832,6 +832,26 @@ h4 {
     margin-top: 30px;
 }
 
+.choose-plan::before,
+.choose-plan::after {
+    content: '';
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #59E4D5 0%, #15868A 100%);
+    z-index: 1;
+}
+
+.choose-plan::before {
+    bottom: -40px;
+    left: -50px;
+}
+.choose-plan::after {
+    top: 80px;
+    right: -115px;
+}
+
 /* facility css ================================ */
 
 .facility-flex {
@@ -1000,6 +1020,11 @@ h4 {
     background-color: #4727d2;
 }
 
+/* facility css ================================ */
+
+
+/* caregiver css ====== */
+
 .caregiverscreentwo .datetime {
     padding: 15px 20px;
 }
@@ -1022,27 +1047,72 @@ h4 {
 .caregiverloginform .datetime img {
     width: 28px;
 }
+
 .caregiverloginform .datetime {
-    padding: 1rem 1.2rem; 
+    padding: 1rem 1.2rem;
 }
+
 .preferred-working ul li {
     flex: unset;
 }
-.preferred-working ul li a{
+
+.preferred-working ul li a {
     padding: 17px 34px;
 }
-.shift-availablity ul  {
+
+.shift-availablity ul {
     justify-content: center;
     align-items: center;
 }
+
 .shift-availablity ul li {
     flex: unset;
     flex-basis: 24%;
 }
+
 .shift-availablity ul li a {
     padding: 17px 3px;
 }
+
 .caregiver-special-condition ul li {
     flex: unset;
 }
-/* facility css ================================ */
+
+.caregiver-covid-19 ul li {
+    flex: unset;
+}
+
+.caregiver-covid-19 ul li a {
+    border-radius: 15px;
+    padding: 22px 35px;
+}
+
+.caregiver-upload-resume .login-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 33px;
+}
+
+.caregiver-upload-resume .login-flex .login-col {
+    flex: 1;
+}
+
+.facility-step-box .facility-caregiver-kind ul li a {
+    padding: 17px 5px;
+}
+
+.facility-step-box .facility-caregiver-kind ul li {
+    flex: unset;
+    flex-basis: 32%;
+}
+
+.driver-insurance-box .login-flex {
+    justify-content: flex-start;
+    gap: 100px;
+}
+
+.choose-plan .plans-list .row {
+    justify-content: center;
+}
+
+/* caregiver css ====== */
